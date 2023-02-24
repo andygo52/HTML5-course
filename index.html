@@ -227,6 +227,29 @@
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" placeholder="your secret" required>
           </p>
+
+          <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9](4)" required>
+          </p>
+          
+          <p>
+            <label for="decade">Favorite Decade:</label>
+            <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+          </p>
+
+          <p>
+            <label for="coffee">Coffee</label>
+            <select name="coffee" id="coffee">
+              <option value="regular coffee">Regular Coffee</option>
+              <option value="iced coffee">Iced Coffee</option>
+              <option value="latte">Latte</option>
+              <option value="cappuccino">Cappuccino</option>
+              <option value="cortado">Cortado</option>
+              <option value="americano">Americano</option>
+              <option value="Other">Other</option>
+            </select>
+          </p>
         </form>
 
       </article>
