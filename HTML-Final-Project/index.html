@@ -23,21 +23,22 @@
 
             </ul>
         </nav>
-    </header>
+ 
 
-    <main>
-        <article>
+    
+        
 
             <figure>
                 <img src="images/tacos_and_drink_400x267.png" alt="Tacos and a Drink" title="Happy Hour!" width="400" height="267">
                 <figcaption>Tacos and a Drink</figcaption>
             </figure>
 
-        </article>
+      
 
-    </main>
+       </header>
 
     <hr>
+    <main>
 
         <article>
         <h2 id="about">About Us</h2>
@@ -46,8 +47,10 @@
         </p>
 
             <aside>
-                <h3>Taco Trivia</h>
+                <h3>Taco Trivia</h3>
+                
                     <details>
+                        
                         <summary>
                             When did <mark>tacos</mark> first appear in the United States?
                         </summary>
@@ -66,13 +69,13 @@
 
         <h2 id="menu">Our Menu</h2>
         
-        <article>
+        <article id="menu">
             <table>
                 <caption>Our Tacos</caption>
                 <thead>
                     <tr>
                         <th scope="col">Tacos</th>
-                        <th scope="col">Qty</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
                         <th scope="col">Price</th>
                     </tr>
 
@@ -81,10 +84,10 @@
                 <tbody>
                     <tr>
                     
-                    <th rowspan="4">Crunchy</th>
+                    <th scope="row" rowspan="3">Crunchy</th>
                 </tr>
 
-                <tr>
+                
                     
                     <td>1</td>
                     <td>$1.50</td>
@@ -99,11 +102,11 @@
                 <tr>
                     
                     <td>3</td>
-                    <td>$3.50</td>
+                    <td>$3.25</td>
                 </tr>
 
                 <tr>
-                    <th rowspan="4">Soft</th>
+                    <th scope="row" rowspan="3">Soft</th>
                     <td>1</td>
                     <td>$2.00</td>
                 </tr>
@@ -131,7 +134,7 @@
 
        <br><br>
        <p><a href="#top">Back to Top</a></p>
-
+    </main>
         <hr>
         <footer>
             <p>
